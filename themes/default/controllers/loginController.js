@@ -2,8 +2,9 @@
 
 // defining controller
 var LoginController = function($scope){
-
-
+	
+	// initialize QapTcha captcha markup
+	$('.addQapTcha').QapTcha({disabledSubmit:true,autoRevert:true,autoSubmit:false});
 
 };
 

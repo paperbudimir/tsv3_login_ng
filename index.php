@@ -101,7 +101,7 @@
 						          	<div class="input-group-addon">
 						          		<i class="fa fa-lock fa-2x"></i>
 						          	</div>				          	
-						          	<div class="form-control input-lg QapTcha"></div>
+						          	<div class="form-control input-lg QapTcha addQapTcha"></div>
 					        	</div>
 
 								<button id="submit-ticket" type="submit" class="btn btn-primary btn-lg pull-right col-xs-12 col-sm-3" name="submit" disabled >SUBMIT</button>
@@ -181,10 +181,5 @@
 		<script type="text/javascript" src="themes/default/assets/js/tracking.js"></script>
 		<!-- end of jQuery, Bootstrap and other JS scripts -->
 
-		<script type="text/javascript">
-		  $(document).ready(function(){
-		    $('.QapTcha').QapTcha({disabledSubmit:true,autoRevert:true,autoSubmit:false});
-		  });
-		</script>
 	</body>
 </html>

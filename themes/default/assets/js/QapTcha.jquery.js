@@ -15,7 +15,7 @@ jQuery.QapTcha = {
 			txtUnlock : 'Identity verified!',
 			disabledSubmit : true,
 			autoRevert : true,
-			PHPfile : 'php/Qaptcha.jquery.php',
+			PHPfile : 'themes/default/assets/php/Qaptcha.jquery.php',
 			autoSubmit : false
         };
 
@@ -42,6 +42,7 @@ jQuery.QapTcha = {
 			inputQapTcha.appendTo($this);
 			Slider.appendTo(bgSlider);
 			$this.show();
+			$this.removeClass('addQapTcha');
 
 			Slider.draggable({
 				revert: function(){
