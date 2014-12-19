@@ -7,29 +7,29 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 		
-		<link rel="stylesheet" type="text/css" href="app/assets/css/bootstrap.min.css" />	
-		<link rel="stylesheet" type="text/css" href="app/assets/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="themes/default/assets/css/bootstrap.min.css" />	
+		<link rel="stylesheet" type="text/css" href="themes/default/assets/css/font-awesome.min.css" />
 		
 		<!-- Regular CSS styles -->
 		<!--<link rel="stylesheet" href="css/styles.css" />-->
 
 		<!-- Testing LESS styles -->
-		<link rel="stylesheet/less" type="text/css" href="css/styles.less" />
+		<link rel="stylesheet/less" type="text/css" href="themes/default/assets/css/styles.less" />
 
 		<link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
-		<link rel="stylesheet" type="text/css" href="app/assets/css/fancy-checkbox.css" />
-		<link rel="stylesheet" type="text/css" href="app/assets/css/QapTcha.jquery.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="themes/default/assets/css/fancy-checkbox.css" />
+		<link rel="stylesheet" type="text/css" href="themes/default/assets/css/QapTcha.jquery.css" media="screen" />
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	   	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	   	<!--[if lt IE 9]>
-	   		<link rel="stylesheet" href="app/assets/css/ie8specs.css" />
+	   		<link rel="stylesheet" href="themes/default/assets/css/ie8specs.css" />
 	   		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	   		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	   	<![endif]-->
 		
 		<!-- LESS server-side compiling script -->
-	   	<script type="text/javascript" src="app/assets/js/less.min.js" ></script>
+	   	<script type="text/javascript" src="themes/default/assets/js/less.min.js" ></script>
 	</head>
 
 	<body>
@@ -162,29 +162,29 @@
 
 		<!-- AngularJS file structure -->
 		<!--<script src="{{ URL::to('/') }}/assets/angular/angular.js"></script>-->
-		<script src="app/assets/js/angular.js"></script>
-		<script src="app/assets/js/angular-route.js"></script>
-		<!--<script src="app/assets/js/angular-animate.js"></script>-->
-		<script src="app/app.js"></script>
-		<script src="app/controllers/homeController.js"></script>
-		<script src="app/controllers/loginController.js"></script>
+		<script src="themes/default/assets/js/angular.js"></script>
+		<script src="themes/default/assets/js/angular-route.js"></script>
+		<!--<script src="themes/default/assets/js/angular-animate.js"></script>-->
+		<script src="themes/default/app.js"></script>
+		<script src="themes/default/controllers/homeController.js"></script>
+		<script src="themes/default/controllers/loginController.js"></script>
 
 		<!-- start of jQuery, Bootstrap and other JS scripts -->
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    	<script type="text/javascript" src="app/assets/js/bootstrap.min.js"></script>
+    	<script type="text/javascript" src="themes/default/assets/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="app/assets/js/jquery.ui.touch-punch.min.js"></script>
-		<script type="text/javascript" src="app/assets/js/jquery.cookie.js"></script>
-		<script type="text/javascript" src="app/assets/js/QapTcha.jquery.js"></script>
-		<script type="text/javascript" src="app/assets/js/script.js"></script>
-		<script type="text/javascript" src="app/assets/js/validation.js"></script>
-		<script type="text/javascript" src="app/assets/js/tracking.js"></script>
+		<script type="text/javascript" src="themes/default/assets/js/jquery.ui.touch-punch.min.js"></script>
+		<script type="text/javascript" src="themes/default/assets/js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="themes/default/assets/js/QapTcha.jquery.js"></script>
+		<script type="text/javascript" src="themes/default/assets/js/script.js"></script>
+		<script type="text/javascript" src="themes/default/assets/js/validation.js"></script>
+		<script type="text/javascript" src="themes/default/assets/js/tracking.js"></script>
+		<!-- end of jQuery, Bootstrap and other JS scripts -->
 
 		<script type="text/javascript">
 		  $(document).ready(function(){
 		    $('.QapTcha').QapTcha({disabledSubmit:true,autoRevert:true,autoSubmit:false});
 		  });
 		</script>
-		<!-- end of jQuery, Bootstrap and other JS scripts -->
 	</body>
 </html>
